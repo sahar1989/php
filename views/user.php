@@ -21,14 +21,15 @@
 </head>  
 <body>  
  <table class="users">
+	<tr>
+		<th>ID</th>
+		<th>Firstname</th>
+		<th>Lastname</th>
+		<th>Contact</th>
+		<th>Comment</th>
+	</tr>
     <script id="template" type="text/x-handlebars-template">
-	        <tr>
-				<th>ID</th>
-				<th>Firstname</th>
-				<th>Lastname</th>
-				<th>Contact</th>
-				<th>Comment</th>
-			</tr>
+	       
             <tr>
                  <td>{{id}}</td>
 				 <td>{{first_name}}</td>
