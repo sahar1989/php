@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 27, 2020 at 05:21 PM
+-- Generation Time: Nov 27, 2020 at 06:15 PM
 -- Server version: 10.4.14-MariaDB
 -- PHP Version: 7.2.34
 
@@ -32,16 +32,18 @@ CREATE TABLE `user` (
   `first_name` varchar(50) NOT NULL,
   `last_name` varchar(50) NOT NULL,
   `contact` varchar(15) NOT NULL,
-  `comment` text NOT NULL
+  `comment` text NOT NULL,
+  `job` varchar(50) NOT NULL,
+  `gender` bit(1) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data for table `user`
 --
 
-INSERT INTO `user` (`id`, `first_name`, `last_name`, `contact`, `comment`) VALUES
-(1, 'Sahar', 'HOSSEINI', 'Skype', 'My favorite comments add extra value to a post. Perhaps they add a personal experience, a different perspective or a new question.'),
-(2, 'John', 'Doe', 'Instagram', 'My favorite comments add extra value to a post. Perhaps they add a personal experience, a different perspective or a new question.');
+INSERT INTO `user` (`id`, `first_name`, `last_name`, `contact`, `comment`, `job`, `gender`) VALUES
+(1, 'Sahar', 'HOSSEINI', 'Skype', 'My favorite comments add extra value to a post. Perhaps they add a personal experience, a different perspective or a new question.', 'Dentist', b'1'),
+(2, 'John', 'Doe', 'Instagram', 'My favorite comments add extra value to a post. Perhaps they add a personal experience, a different perspective or a new question.', 'Interior Designer', b'0');
 
 --
 -- Indexes for dumped tables
