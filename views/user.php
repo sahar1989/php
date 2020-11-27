@@ -1,7 +1,7 @@
 <!DOCTYPE html>  
 <html>  
 <head>  
-    <title>Test WIMOVA </title>  
+    <title>Test</title>  
 	<script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
 	<script type="text/javascript" >
