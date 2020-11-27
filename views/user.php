@@ -6,7 +6,6 @@
 	<script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
 	<script type="text/javascript" >
-     	//http://localhost/php/views/user.php
 	    // execute the compiled template and print the output
 		 $.ajax({ 
 		   method: "GET", 
