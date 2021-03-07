@@ -33,7 +33,8 @@
 				  <p class="title">{{job}}</p>
 				  <p>{{comment}}</p>
 				  <p><button>{{contact}}</button></p>
-				  
+				  <p><button>{{contact}}</button></p>
+				  <p><button>{{contact}}</button></p>
 			</div>
 		</script>	
 	</div>
